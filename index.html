@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Päättisbotti</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.9.0/dist/tf.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="status">Ladataan... odota noin 8 sekuntia</h1>
+    <label
+      >Olen yksinkertainen koneoppija, minulla ei ole nimeä. Puhu
+      minulle!</label
+    >
+    <input id="question" type="text" placeholder="Syötekenttä" />
+    <button id="submit">Syötä</button>
+    <div id="chat-history"></div>
+    <script src="chat.js"></script>
+    <script src="stemFinnish.js"></script>
+  </body>
+</html>
